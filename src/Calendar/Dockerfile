@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.2-aspnetcore-runtime-stretch-slim AS base
+FROM microsoft/dotnet:2.2-aspnetcore-runtime-nanoserver-1809 AS base
 WORKDIR /app
 EXPOSE 80
 EXPOSE 443

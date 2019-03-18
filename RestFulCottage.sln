@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calendar", "src\Calendar\Ca
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{02B7357D-757D-433E-B552-5FAE4F099916}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booking", "src\Booking\Booking.csproj", "{DE92CC72-DEF9-48D5-9CC5-EE3D5C7C0F9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookingService", "BookingService", "{6E4E9BB2-6317-4B7A-A3FF-57EF5C080DC1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,18 @@ Global
 		{62B83D6D-8872-4DAF-BCBB-137B6CB50277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62B83D6D-8872-4DAF-BCBB-137B6CB50277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62B83D6D-8872-4DAF-BCBB-137B6CB50277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE92CC72-DEF9-48D5-9CC5-EE3D5C7C0F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE92CC72-DEF9-48D5-9CC5-EE3D5C7C0F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE92CC72-DEF9-48D5-9CC5-EE3D5C7C0F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE92CC72-DEF9-48D5-9CC5-EE3D5C7C0F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{62B83D6D-8872-4DAF-BCBB-137B6CB50277} = {02B7357D-757D-433E-B552-5FAE4F099916}
+		{DE92CC72-DEF9-48D5-9CC5-EE3D5C7C0F9A} = {6E4E9BB2-6317-4B7A-A3FF-57EF5C080DC1}
+		{6E4E9BB2-6317-4B7A-A3FF-57EF5C080DC1} = {02B7357D-757D-433E-B552-5FAE4F099916}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {84AE749C-5D25-44A2-B069-2289411AB47A}
