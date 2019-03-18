@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RestFulCottage.Contracts
+namespace RestFulCalendar.Contracts
 {
     public interface ICottageCalendarService
     {

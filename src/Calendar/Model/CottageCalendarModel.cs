@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace RestFulCottage.Model
+namespace RestFulCalendar.Model
 {
     public class CottageCalendarModel
     {

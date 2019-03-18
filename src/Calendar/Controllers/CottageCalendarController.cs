@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using RestFulCottage.Model;
+using RestFulCalendar.Model;
 
-namespace RestFulCottage.Controllers
+namespace RestFulCalendar.Controllers
 {
     [Route("api/{propCode}/calendar")]
     [ApiController]
